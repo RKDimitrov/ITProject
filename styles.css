@@ -1,10 +1,12 @@
-.main{
+.main {
     border: ridge;
     text-align: center;
 }
-.nav-right{
+
+.nav-right {
     float: right;
 }
-.button{
-   margin: 2px;
+
+.button {
+    margin: 2px;
 }
