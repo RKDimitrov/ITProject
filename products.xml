@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<computers>
+    <pc>
+        <image>sadas</image>
+        <ime>asdas</ime>
+        <description>asdasd</description>
+    </pc>
+   <pc>
+        <image>sadas</image>
+        <ime>asdas</ime>
+        <description>asdasd</description>
+    </pc>
+    <pc>
+        <image>sadas</image>
+        <ime>asdas</ime>
+        <description>asdasd</description>
+    </pc>
+</computers>
