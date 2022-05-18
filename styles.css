@@ -1,3 +1,7 @@
 .main{
-
+    border: ridge;
+    text-align: center;
+}
+.nav-right{
+    float: right;
 }
