@@ -5,35 +5,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="products.xml">
-    <link rel="stylesheet" href="login/Login link.html">
-    <title>Document</title>
-    <link rel="icon" href="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js">
-    <link rel="stylesheet" href="/slide show/slide show style.css">
-    <link rel="stylesheet" href="/pc pages/pc1 html file.html">
-    <link rel="stylesheet" href="/button/button css.css">
+    <link rel="stylesheet" href="login/login.html">
+    <link rel="stylesheet" href="/slideShow/slideShow.css">
+    <link rel="stylesheet" href="/pcs/pc1.html">
+    <link rel="stylesheet" href="/buttons/button.css">
+    
+    <title>Fake Desktop.bg</title>
 </head>
 
 <body>
     <main>
         <nav>
-            <a href="#" style="background-color: red;">Home</a>
             <div class="nav-right">
-                <a href="/login/Login link.html" style="background-color: yellow; left: 1em;">Login</a>
-                <a href="/Sign Up/Sign up.html" style="background-color: yellow;">Sign up</a>
+                <a href="login/login.html" class="basicButtons">Login</a>
+                <a href="signUp/signUp.html" class="basicButtons">Sign up</a>
             </div>
         </nav>
 
+        <img src="images/desktop.png" alt="Aliexpress version of Desktop" style="width: 20%; height: 20%;">
+        
         <main class="main">
-            <a href="" class="button1">Home</a>
-            <a href="" class="button1">Build your own</a>
-            <a href="" class="button1">PC compare</a>
+            <div class="inline">
+                <img src="images/home.png" alt="" style="width: 5%; height: 5%;">
+                <a href="" class="button1">Home</a>
+            </div>
+            <div class="inline">
+                <img src="images/pcCase.png" alt="" style="width: 13%; height: 13%;">
+                <a href="" class="button1">Build your own</a>
+            </div>
+            <div class="inline">
+                <img src="images/pcCompare.png" alt="" style="width: 5%; height: 5%;">
+                <a href="" class="button1">PC compare</a>
+            </div>
+            
         </main>
 
     </main>
     <div class="slidershow middle">
-
         <div class="slides">
             <input type="radio" name="r" id="r1" checked>
             <input type="radio" name="r" id="r2">
@@ -41,19 +52,19 @@
             <input type="radio" name="r" id="r4">
             <input type="radio" name="r" id="r5">
             <div class=" slide s1">
-                <img src="/images/slide 1 img.jpg " alt="ne raboti ">
+                <img src="images/slide1.jpg" alt="ne raboti ">
             </div>
-            <div class="slide ">
-                <img src="/images/slide 2 img.jpg " alt="ne raboti ">
+            <div class="slide">
+                <img src="images/slide2.jpg" alt="ne raboti ">
             </div>
-            <div class="slide ">
-                <img src="/images/slide 3 img.jpg " alt="ne raboti ">
+            <div class="slide">
+                <img src="images/slide3.jpg" alt="ne raboti ">
             </div>
-            <div class="slide ">
-                <img src="/images/slide 4 img.jpg " alt="ne raboti ">
+            <div class="slide">
+                <img src="images/slide4.jpg" alt="ne raboti ">
             </div>
-            <div class="slide ">
-                <img src="/images/slide 5 img.jpg " alt="ne raboti ">
+            <div class="slide">
+                <img src="images/slide5.jpg" alt="ne raboti ">
             </div>
         </div>
 
@@ -65,13 +76,38 @@
             <label for="r5" class="bar "></label>
         </div>
     </div>
+
     <button type="button" class="button">
         <span class="button__text">Rtx pc</span>
         <span class="button__icon">
             <ion-icon name="desktop-outline"></ion-icon>
         </span>
     </button>
-    <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <nav class="bottom-nav">
+        <div class="faq">
+            <div>
+                <img src="images/phoneIcon.png" alt="" class="inlineIcons"> 
+                <p class="inlineIcons">0894874225</p>
+            </div>
+            <h3 style="color: black;">Често Задавани Въпроси</h3>
+            <a href="" class="faq-elements">Плащане</a>
+            <a href="" class="faq-elements">Доставка</a>
+            <a href="" class="faq-elements">Връщане и замяна</a>
+        </div>
+        <div class="forUs">
+            <div>
+                <img src="images/email.png" alt="" class="inlineIcons"> 
+                <p class="inlineIcons">nqmame@email.bg</p>
+            </div>
+            <h3 style="color: black;">За Нас</h3>
+            <a href="" class="forUs-elements">Общи условия</a>
+            <a href="" class="forUs-elements">Политика за бисквитки</a>
+        </div>
+        <div class="products">
+            <h3 style="color: black;">Продукти</h3>
+            <a href="" class="products-elements">Нямаме продукти</a>
+        </div>
+    </nav>
 </body>
 
 </html>

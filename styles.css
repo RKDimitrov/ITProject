@@ -1,12 +1,106 @@
 .main {
     border: ridge;
     text-align: center;
+    margin-top: 2em;
+}
+
+.inline {
+    display:inline-flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .nav-right {
     float: right;
 }
 
-.button {
-    margin: 2px;
+.button1 {
+    text-decoration: none;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#338ee4;
 }
+
+.basicButtons {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 10px;
+    background-color: #338ee4;
+    opacity: 80%;
+    border: none;
+    color: white;
+    margin-top: 1em;
+    width: 200px;
+    height: 30px;
+    font-size: 30px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.bottom-nav {
+    text-align: center;
+    border-top: ridge;
+}
+.faq {
+    display:inline-flex;
+    flex-direction: column;
+    align-items: left;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+}
+.faq-elements {
+    text-decoration: none;
+    color:#338ee4;
+}
+.forUs {
+    display:inline-flex;
+    flex-direction: column;
+    align-items: left;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+}
+
+.forUs-elements {
+    text-decoration: none;
+    color:#338ee4;
+}
+
+.products {
+    display:inline-flex;
+    flex-direction: column;
+    align-items: left;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+}
+
+.products-elements {
+    text-decoration: none;
+    color:#338ee4;
+}
+
+.inlineIcons{
+    align-items: left;
+    display:inline;
+    width: 8%;
+    height: 8%;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: white;
+    
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:#888;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
